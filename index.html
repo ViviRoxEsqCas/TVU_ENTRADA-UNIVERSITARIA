@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TVU UMSA — Entrada Universitaria</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" type="image/png" href="./assets/logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============================================= -->
+<!-- NAVBAR                                          -->
+<!-- ============================================= -->
+<header class="navbar" id="navbar">
+  <div class="navbar__inner">
+    <a href="#top" class="navbar__logo" aria-label="Inicio">
+      <span class="logo-mark" aria-hidden="true">
+        <img src="./assets/logo.png" alt="TVU UMSA" srcset="">
+      </span>
+    </a>
+
+    <nav class="navbar__nav" id="navMenu" aria-label="Navegación principal">
+      <a class="nav-link" href="#features"><span>Promociones</span></a>
+      <a class="nav-link" href="#gallery"><span>Beneficios</span></a>
+      <a class="nav-link" href="#testimonial"><span>Testimonio</span></a>
+      <a class="nav-link" href="#footer"><span>Contacto</span></a>
+    </nav>
+
+    <div class="navbar__actions">
+      <a href="#features" class="btn btn--ghost btn--sm">Cotizar</a>
+      <a href="#cta" id="navWhatsappBtn" class="btn btn--primary btn--sm">
+        <span>Solicitar Cotización</span>
+      </a>
+    </div>
+
+    <button class="navbar__burger" id="burgerBtn" aria-label="Abrir menú" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============================================= -->
+<!-- HERO                                            -->
+<!-- ============================================= -->
+<section class="hero" id="top">
+  <div class="hero__ambient" aria-hidden="true">
+    <span class="glow glow--a"></span>
+    <span class="glow glow--b"></span>
+    <span class="glow glow--c"></span>
+    <span class="grain"></span>
+  </div>
+
+  <div class="hero__inner">
+    <div class="hero__content">
+      <p class="eyebrow" data-reveal="fade-up">
+        <span class="eyebrow__line"></span> Entrada Universitaria • Promociones Exclusivas
+      </p>
+
+      <h1 class="hero__title" data-reveal="fade-up" data-delay="1">
+        Haz que tu fraternidad,<br>
+        <em>destaque </em> con producción.
+      </h1>
+
+      <p class="hero__subtitle" data-reveal="fade-up" data-delay="2">
+        Potenciamos la imagen y tradición de tu fraternidad con audiovisual
+        profesional y difusión estratégica.
+      </p>
+
+      <div class="hero__actions" data-reveal="fade-up" data-delay="3">
+        <a href="#gallery" class="btn btn--primary btn--lg">
+          <span>Ver Promociones</span>
+        </a>
+        <a href="#features" class="btn btn--outline btn--lg">
+          <span class="btn__play" aria-hidden="true"></span>
+          Contáctanos
+        </a>
+      </div>
+
+      <div class="hero__meta" data-reveal="fade-up" data-delay="4">
+        <div class="hero__avatars" aria-hidden="true">
+          <span class="avatar-chip"><img src="./assets/perfil-aprimerahora.png" alt=""></span>
+          <span class="avatar-chip"><img src="./assets/perfil-prensatvu.png" alt=""></span>
+          <span class="avatar-chip"><img src="./assets/perfil-umsatv.jpeg" alt=""></span>
+        </div>
+        <p class="hero__meta-text">Producción audiovisual <strong>profesional y organizada</strong> para tu fraternidad</p>
+      </div>
+    </div>
+
+    <div class="hero__visual">
+      <div class="hero__image-wrap" data-reveal="scale-in">
+        <div class="placeholder placeholder--hero" data-ratio="4:5">
+          <img src="./assets/afiche-umsa2026.png" alt="">
+          <span class="placeholder__icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="6" y="10" width="52" height="44" rx="6" stroke="currentColor" stroke-width="2"/>
+              <circle cx="21" cy="24" r="5" stroke="currentColor" stroke-width="2"/>
+              <path d="M6 42L22 30L34 40L44 30L58 44" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <span class="placeholder__label">AFICHE - ENTRADA UNIVERSITARIA 2026</span>
+          <span class="placeholder__sheen" aria-hidden="true"></span>
+        </div>
+      </div>
+
+      <div class="float-card float-card--top" data-reveal="slide-left" data-delay="3">
+        <div class="float-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L14.6 8.6L22 9.3L16.5 13.8L18.2 21L12 17.3L5.8 21L7.5 13.8L2 9.3L9.4 8.6L12 2Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="float-card__text">
+          <strong>TVU UMSA</strong>
+          <span>Producción Audiovisual</span>
+        </div>
+      </div>
+
+      <div class="float-card float-card--bottom" data-reveal="slide-right" data-delay="4">
+        <span class="float-card__avatar" aria-hidden="true"><img src="./assets/perfil.jpeg" alt="" srcset=""></span>
+        <div class="float-card__text">
+          <strong>TVU UMSA</strong>
+          <span>Entrada Universitaria</span>
+        </div>
+        <span class="float-card__badge">+24</span>
+      </div>
+
+      <span class="deco-ring" aria-hidden="true"></span>
+      <span class="deco-dots" aria-hidden="true"></span>
+    </div>
+  </div>
+
+  <div class="hero__scroll" data-reveal="fade-in" data-delay="5">
+    <span class="hero__scroll-line"></span>
+    <span class="hero__scroll-text">Scroll</span>
+  </div>
+</section>
+
+<!-- ============================================= -->
+<!-- MARQUEE STRIP                                   -->
+<!-- ============================================= -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <span>TVU UMSA</span><span class="marquee__dot">✦</span>
+    <span>Plan Inicio · Bs 300</span><span class="marquee__dot">✦</span>
+    <span>Plan Destacado · Bs 500</span><span class="marquee__dot">✦</span>
+    <span>Plan Premium · Bs 650</span><span class="marquee__dot">✦</span>
+    <span>Plan Esencial · Bs 500</span><span class="marquee__dot">✦</span>
+    <span>Plan Streaming · Bs 700</span><span class="marquee__dot">✦</span>
+    <span>Plan Producción Total · Bs 900</span><span class="marquee__dot">✦</span>
+    <span>Entrada Universitaria</span><span class="marquee__dot">✦</span>
+    <span>TVU UMSA</span><span class="marquee__dot">✦</span>
+    <span>Plan Inicio · Bs 300</span><span class="marquee__dot">✦</span>
+    <span>Plan Destacado · Bs 500</span><span class="marquee__dot">✦</span>
+    <span>Plan Premium · Bs 650</span><span class="marquee__dot">✦</span>
+    <span>Plan Esencial · Bs 500</span><span class="marquee__dot">✦</span>
+    <span>Plan Streaming · Bs 700</span><span class="marquee__dot">✦</span>
+    <span>Plan Producción Total · Bs 900</span><span class="marquee__dot">✦</span>
+    <span>Entrada Universitaria</span><span class="marquee__dot">✦</span>
+  </div>
+</div>
+
+<!-- ============================================= -->
+<!-- FEATURES / CARDS                                -->
+<!-- ============================================= -->
+<section class="features" id="features">
+  <div class="section__head">
+    <p class="eyebrow" data-reveal="fade-up"><span class="eyebrow__line"></span> Promociones</p>
+    <h2 class="section__title" data-reveal="fade-up" data-delay="1">
+      Anuncia tu Fraternidad<br> y su Cobertura en la Entrada Universitaria
+    </h2>
+    <p class="section__subtitle" data-reveal="fade-up" data-delay="2">
+      Atrae nuevos integrantes con contenido audiovisual profesional realizado por TVU UMSA.
+      Selecciona el plan que mejor se adapte a tu participación.
+    </p>
+  </div>
+
+  <div class="cards-grid">
+    <article class="card" data-reveal="fade-up" data-delay="0">
+      <div class="card__media">
+        <div class="placeholder placeholder--card" data-ratio="4:3">
+          <span class="placeholder__icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="10" width="52" height="44" rx="6" stroke="currentColor" stroke-width="2"/><circle cx="21" cy="24" r="5" stroke="currentColor" stroke-width="2"/><path d="M6 42L22 30L34 40L44 30L58 44" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="placeholder__label">800 × 600</span>
+          <span class="placeholder__sheen" aria-hidden="true"></span>
+        </div>
+        <span class="card__badge">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 3v18M3 12h18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </span>
+      </div>
+      <div class="card__body">
+        <h3 class="card__title">Plan Inicio</h3>
+        <p class="card__text">Da a conocer tu fraternidad e invita a nuevos integrantes mediante la difusión en las plataformas de TVU UMSA.</p>
+        <a href="#" class="card__link">Ver detalles <span class="arrow">→</span></a>
+      </div>
+    </article>
+
+    <article class="card" data-reveal="fade-up" data-delay="1">
+      <div class="card__media">
+        <div class="placeholder placeholder--card" data-ratio="4:3">
+          <span class="placeholder__icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="10" width="52" height="44" rx="6" stroke="currentColor" stroke-width="2"/><circle cx="21" cy="24" r="5" stroke="currentColor" stroke-width="2"/><path d="M6 42L22 30L34 40L44 30L58 44" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="placeholder__label">800 × 600</span>
+          <span class="placeholder__sheen" aria-hidden="true"></span>
+        </div>
+        <span class="card__badge">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M12 7v5l3.5 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </span>
+      </div>
+      <div class="card__body">
+        <h3 class="card__title">Plan Destacado</h3>
+        <p class="card__text">Incrementa el impacto de tu convocatoria con un video promocional producido por el equipo de TVU.</p>
+        <a href="#" class="card__link">Ver detalles <span class="arrow">→</span></a>
+      </div>
+    </article>
+
+    <article class="card" data-reveal="fade-up" data-delay="2">
+      <div class="card__media">
+        <div class="placeholder placeholder--card" data-ratio="4:3">
+          <span class="placeholder__icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="10" width="52" height="44" rx="6" stroke="currentColor" stroke-width="2"/><circle cx="21" cy="24" r="5" stroke="currentColor" stroke-width="2"/><path d="M6 42L22 30L34 40L44 30L58 44" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="placeholder__label">800 × 600</span>
+          <span class="placeholder__sheen" aria-hidden="true"></span>
+        </div>
+        <span class="card__badge">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 12h16M12 4v16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" transform="rotate(45 12 12)"/></svg>
+        </span>
+      </div>
+      <div class="card__body">
+        <h3 class="card__title">Plan Premium</h3>
+        <p class="card__text">La mejor alternativa para fraternidades que desean una producción audiovisual de mayor impacto antes de la Entrada Universitaria.</p>
+        <a href="#" class="card__link">Ver detalles <span class="arrow">→</span></a>
+      </div>
+    </article>
+
+    <article class="card" data-reveal="fade-up" data-delay="0">
+      <div class="card__media">
+        <div class="placeholder placeholder--card" data-ratio="4:3">
+          <span class="placeholder__icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="10" width="52" height="44" rx="6" stroke="currentColor" stroke-width="2"/><circle cx="21" cy="24" r="5" stroke="currentColor" stroke-width="2"/><path d="M6 42L22 30L34 40L44 30L58 44" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="placeholder__label">800 × 600</span>
+          <span class="placeholder__sheen" aria-hidden="true"></span>
+        </div>
+        <span class="card__badge">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 3v18M3 12h18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </span>
+      </div>
+      <div class="card__body">
+        <h3 class="card__title">Plan Esencial</h3>
+        <p class="card__text">Registra tu participación con una cobertura en video y un resumen audiovisual listo para compartir en redes sociales.</p>
+        <a href="#" class="card__link">Ver detalles <span class="arrow">→</span></a>
+      </div>
+    </article>
+
+    <article class="card" data-reveal="fade-up" data-delay="1">
+      <div class="card__media">
+        <div class="placeholder placeholder--card" data-ratio="4:3">
+          <span class="placeholder__icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="10" width="52" height="44" rx="6" stroke="currentColor" stroke-width="2"/><circle cx="21" cy="24" r="5" stroke="currentColor" stroke-width="2"/><path d="M6 42L22 30L34 40L44 30L58 44" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="placeholder__label">800 × 600</span>
+          <span class="placeholder__sheen" aria-hidden="true"></span>
+        </div>
+        <span class="card__badge">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M12 7v5l3.5 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </span>
+      </div>
+      <div class="card__body">
+        <h3 class="card__title">Plan Streaming</h3>
+        <p class="card__text">Amplía la visibilidad de tu fraternidad con cobertura extendida y transmisión en vivo según planificación.</p>
+        <a href="#" class="card__link">Ver detalles <span class="arrow">→</span></a>
+      </div>
+    </article>
+
+    <article class="card" data-reveal="fade-up" data-delay="2">
+      <div class="card__media">
+        <div class="placeholder placeholder--card" data-ratio="4:3">
+          <span class="placeholder__icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="10" width="52" height="44" rx="6" stroke="currentColor" stroke-width="2"/><circle cx="21" cy="24" r="5" stroke="currentColor" stroke-width="2"/><path d="M6 42L22 30L34 40L44 30L58 44" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="placeholder__label">800 × 600</span>
+          <span class="placeholder__sheen" aria-hidden="true"></span>
+        </div>
+        <span class="card__badge">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 12h16M12 4v16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" transform="rotate(45 12 12)"/></svg>
+        </span>
+      </div>
+      <div class="card__body">
+        <h3 class="card__title">Plan Producción Total</h3>
+        <p class="card__text">La cobertura más completa de TVU UMSA para registrar cada momento importante de la Entrada Universitaria.</p>
+        <a href="#" class="card__link">Ver detalles <span class="arrow">→</span></a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============================================= -->
+<!-- GALLERY / SHOWCASE                              -->
+<!-- ============================================= -->
+<section class="gallery" id="gallery">
+  <div class="gallery__inner">
+    <div class="gallery__text">
+      <p class="eyebrow" data-reveal="fade-up"><span class="eyebrow__line"></span> Beneficios</p>
+      <h2 class="section__title" data-reveal="fade-up" data-delay="1">
+        ¿Por qué elegir<br> a TVU UMSA?
+      </h2>
+      <p class="section__subtitle" data-reveal="fade-up" data-delay="2">
+        Trabajamos para que tu fraternidad cuente con una producción audiovisual
+        organizada, de calidad y adaptada a las necesidades de la Entrada Universitaria.
+      </p>
+      <br><br>
+      <a href="#" class="btn btn--primary btn--lg" data-reveal="fade-up" data-delay="3">
+        <span>Contáctanos</span>
+      </a>
+
+      <div class="gallery__stats" data-reveal="fade-up" data-delay="4">
+        <div class="stat">
+          <strong>Producción Audiovisual</strong>
+          <span>Grabación y edición de contenido</span>
+        </div>
+        <div class="stat">
+          <strong>Transmisión en Vivo</strong>
+          <span>Comparte el recorrido en directo</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery__grid">
+      <div class="placeholder placeholder--g1" data-reveal="fade-up" data-delay="0" data-ratio="1:1">
+        <span class="placeholder__label">600 × 600</span>
+        <span class="placeholder__sheen" aria-hidden="true"></span>
+      </div>
+      <div class="placeholder placeholder--g2" data-reveal="fade-up" data-delay="1" data-ratio="3:4">
+        <img src="./assets/foto-1.png" alt="">
+        <span class="placeholder__label">TOBAS</span>
+        <span class="placeholder__sheen" aria-hidden="true"></span>
+      </div>
+      <div class="placeholder placeholder--g3" data-reveal="fade-up" data-delay="2" data-ratio="3:4">
+        <img src="./assets/foto-2.png" alt="">
+        <span class="placeholder__label">CAPORAL</span>
+        <span class="placeholder__sheen" aria-hidden="true"></span>
+      </div>
+      <div class="placeholder placeholder--g4" data-reveal="fade-up" data-delay="1" data-ratio="1:1">
+        <span class="placeholder__label">600 × 600</span>
+        <span class="placeholder__sheen" aria-hidden="true"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================= -->
+<!-- TESTIMONIAL                                     -->
+<!-- ============================================= -->
+<section class="testimonial" id="testimonial">
+  <div class="testimonial__ambient" aria-hidden="true">
+    <span class="glow glow--d"></span>
+  </div>
+  <div class="testimonial__inner">
+    <span class="testimonial__quote-mark" aria-hidden="true">“</span>
+
+    <div class="testimonial__track" id="testimonialTrack">
+      <blockquote class="testimonial__slide is-active">
+        <p data-reveal="fade-up">Publica el anuncio oficial de tu fraternidad en las
+        plataformas de TVU UMSA para dar a conocer la convocatoria e invitar a nuevos integrantes.</p>
+        <footer>
+          <span class="testimonial__avatar" aria-hidden="true"><img src="./assets/perfil.jpeg" alt=""></span>
+          <div>
+            <strong>TVU UMSA LP</strong>
+            <span>Difunde tu Convocatoria</span>
+          </div>
+        </footer>
+      </blockquote>
+
+      <blockquote class="testimonial__slide">
+        <p>Producción de video promocional con edición personalizada y coordinación
+        previa con la fraternidad para planificar cada escena y transmitir su identidad.</p>
+        <footer>
+          <span class="testimonial__avatar" aria-hidden="true"><img src="./assets/perfil.jpeg" alt=""></span>
+          <div>
+            <strong>TVU UMSA LP</strong>
+            <span>Promociona tu Fraternidad</span>
+          </div>
+        </footer>
+      </blockquote>
+
+      <blockquote class="testimonial__slide">
+        <p>Producción de mayor impacto con planificación conjunta entre el equipo de TVU
+        y la fraternidad, grabación organizada, edición personalizada y difusión prioritaria.</p>
+        <footer>
+          <span class="testimonial__avatar" aria-hidden="true"><img src="./assets/perfil.jpeg" alt=""></span>
+          <div>
+            <strong>TVU UMSA LP</strong>
+            <span>Producción Audiovisual de Calidad</span>
+          </div>
+        </footer>
+      </blockquote>
+    </div>
+
+    <div class="testimonial__dots" id="testimonialDots" role="tablist" aria-label="Seleccionar plan">
+      <button class="dot is-active" type="button" aria-label="Plan 1"></button>
+      <button class="dot" type="button" aria-label="Plan 2"></button>
+      <button class="dot" type="button" aria-label="Plan 3"></button>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================= -->
+<!-- CTA                                             -->
+<!-- ============================================= -->
+<section class="cta" id="cta">
+  <div class="cta__ambient" aria-hidden="true">
+    <span class="glow glow--e"></span>
+  </div>
+  <div class="cta__inner">
+    <p class="eyebrow eyebrow--light" data-reveal="fade-up"><span class="eyebrow__line"></span> Cotización</p>
+    <h2 class="cta__title" data-reveal="fade-up" data-delay="1">
+      Solicita tu Cotización<br> con TVU UMSA.
+    </h2>
+    <p class="cta__subtitle" data-reveal="fade-up" data-delay="2">
+      Nuestro equipo está listo para ayudarte a promocionar tu fraternidad o realizar
+      la cobertura audiovisual durante la Entrada Universitaria.
+    </p>
+    <div class="cta__actions" data-reveal="fade-up" data-delay="3">
+      <a href="#" class="btn btn--light btn--lg" id="ctaWhatsappBtn"><span>Solicitar Cotización</span></a>
+      <a href="#" class="btn btn--outline-light btn--lg"><span>Nuestros Canales</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================= -->
+<!-- FOOTER                                          -->
+<!-- ============================================= -->
+<footer class="footer" id="footer">
+  <div class="footer__top">
+    <div class="footer__brand">
+      <a href="#top" class="navbar__logo">
+        <span class="logo-mark" aria-hidden="true"><img src="./assets/logo.png" alt=""></span>
+      </a>
+      <p class="footer__desc">Televisión Universitaria al servicio de la cultura, la comunicación y la difusión audiovisual de la Entrada Universitaria de la UMSA.</p>
+      <div class="footer__socials">
+        <a href="https://www.facebook.com/TVU.UMSA.LP/" class="social-icon" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none"><path d="M8 12h8M12 8v8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/></svg></a>
+        <a href="https://www.tiktok.com/@tvu_umsa_lp" class="social-icon" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="3.4" stroke="currentColor" stroke-width="1.6"/><circle cx="16.6" cy="7.4" r="0.9" fill="currentColor"/></svg></a>
+        <a href="https://www.youtube.com/@televisionuniversitarialap6757 " class="social-icon" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none"><path d="M5 5l14 14M5 19L19 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></a>
+      </div>
+    </div>
+
+    <nav class="footer__col" aria-label="Navegación">
+      <h4>Navegación</h4>
+      <a href="#">Inicio</a>
+      <a href="#features">Promociones</a>
+      <a href="#gallery">Beneficios</a>
+      <a href="#cta">Contacto</a>
+    </nav>
+
+    <nav class="footer__col" aria-label="Síguenos">
+      <h4>Síguenos</h4>
+      <a href="https://www.facebook.com/TVU.UMSA.LP/ ">Facebook</a>
+      <a href="https://www.tiktok.com/@tvu_umsa_lp">TikTok</a>
+      <a href="https://www.youtube.com/@televisionuniversitarialap6757 ">YouTube</a>
+      <a href="#">WhatsApp</a>
+    </nav>
+
+    <div class="footer__col footer__newsletter">
+      <h4>¿Necesitas asesoramiento?</h4>
+      <p>Nuestro equipo te ayudará a seleccionar la mejor opción según el tamaño de tu fraternidad y tu presupuesto.</p>
+      <p class="newsletter-msg" id="newsletterMsg" aria-live="polite"></p>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <p>© 2026 TVU UMSA. Todos los derechos reservados.</p>
+    <div class="footer__legal">
+      <a href="https://tvu.umsa.bo">UMSA</a>
+    </div>
+  </div>
+</footer>
+
+<a href="#" class="whatsapp-float" id="whatsappFloatBtn" aria-label="Contactar por WhatsApp" target="_blank" rel="noopener">
+  <svg viewBox="0 0 24 24" fill="none"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.35 5.06L2 22l5.06-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M8.6 8.9c.1-.5.55-.6.9-.6h.4c.2 0 .45 0 .6.4.2.5.6 1.5.65 1.6.06.13.1.28.02.45-.08.16-.13.27-.25.42-.13.15-.27.3-.38.4-.13.13-.26.27-.11.53.15.26.65 1.07 1.4 1.73.96.86 1.77 1.13 2.02 1.26.26.13.4.11.55-.06.16-.18.65-.76.83-1.02.18-.26.35-.22.6-.13.24.09 1.55.73 1.82.86.26.13.44.19.5.3.06.11.06.62-.16 1.24-.22.62-1.28 1.2-1.77 1.24-.46.04-.9.2-3.02-.63-2.55-1.02-4.2-3.6-4.32-3.77-.13-.16-1.03-1.37-1.03-2.61 0-1.24.65-1.85.88-2.1z" fill="currentColor" stroke="none"/></svg>
+</a>
+
+<button class="to-top" id="toTopBtn" aria-label="Volver arriba">
+  <svg viewBox="0 0 24 24" fill="none"><path d="M12 19V5M6 11l6-6 6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<!-- ============================================= -->
+<!-- MODAL — MOTIVO DE CONTACTO 1                  -->
+<!-- ============================================= -->
+<div class="modal" id="cardModal" aria-hidden="true">
+  <div class="modal__backdrop" data-modal-close></div>
+
+  <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal__close" type="button" aria-label="Cerrar ventana" data-modal-close>
+      <svg viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </button>
+
+    <div class="modal__visual" aria-hidden="true">
+      <span class="modal__grid"></span>
+      <span class="modal__glow modal__glow--red"></span>
+      <span class="modal__glow modal__glow--blue"></span>
+
+      <div class="modal__visual-card">
+        <span class="modal__visual-icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 2L14.6 8.6L22 9.3L16.5 13.8L18.2 21L12 17.3L5.8 21L7.5 13.8L2 9.3L9.4 8.6L12 2Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+        </span>
+        <span class="modal__visual-label" id="modalVisualLabel">TVU UMSA</span>
+      </div>
+
+      <span class="modal__chip modal__chip--a" id="modalChipA">Promociones</span>
+      <span class="modal__chip modal__chip--b" id="modalChipB">Beneficios</span>
+    </div>
+
+    <div class="modal__panel">
+      <p class="modal__eyebrow"><span class="eyebrow__line"></span> Cotización</p>
+      <h3 class="modal__title" id="modalTitle">Información</h3>
+      <p class="modal__desc" id="modalDesc">
+        Nuestro equipo está listo para ayudarte a promocionar tu fraternidad o realizar
+        la cobertura audiovisual, cuéntanos brevemente qué te interesa y te responderemos a la brevedad.
+      </p>
+
+      <div class="modal__quote" id="modalQuote" hidden>
+        <span class="modal__quote-badge" id="modalQuoteBadge"></span>
+        <span class="modal__quote-price">Desde <strong id="modalQuotePrice"></strong></span>
+      </div>
+      <ul class="modal__features" id="modalFeatures"></ul>
+
+      <form class="modal__form" id="modalForm" novalidate>
+        <button type="submit" class="modal__submit">
+          <span>Solicitar Cotización</span>
+          <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </form>
+
+      <p class="modal__msg" id="modalMsg" aria-live="polite"></p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================= -->
+<!-- MODAL — MOTIVO DE CONTACTO 2                   -->
+<!-- ============================================= -->
+<div class="modal" id="contactModal" aria-hidden="true">
+  <div class="modal__backdrop" data-modal-close></div>
+
+  <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="contactModalTitle">
+    <button class="modal__close" type="button" aria-label="Cerrar ventana" data-modal-close>
+      <svg viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </button>
+
+    <div class="modal__visual" aria-hidden="true">
+      <span class="modal__grid"></span>
+      <span class="modal__glow modal__glow--red"></span>
+      <span class="modal__glow modal__glow--blue"></span>
+
+      <div class="modal__visual-card">
+        <span class="modal__visual-icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 2L14.6 8.6L22 9.3L16.5 13.8L18.2 21L12 17.3L5.8 21L7.5 13.8L2 9.3L9.4 8.6L12 2Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+        </span>
+        <span class="modal__visual-label" id="contactModalVisualLabel"> TVU UMSA</span>
+      </div>
+
+      <span class="modal__chip modal__chip--a" id="contactModalChipA">Promociones</span>
+      <span class="modal__chip modal__chip--b" id="contactModalChipB">Beneficios</span>
+    </div>
+
+    <div class="modal__panel">
+      <h3 class="modal__title" id="contactModalTitle">Información</h3>
+      <form class="modal__form" id="contactModalForm" novalidate>
+        <div class="modal__field">
+          <label class="modal__label" for="contactNombre">Nombre del responsable</label>
+          <input type="text" id="contactNombre" class="modal__input" placeholder="Tu nombre completo" autocomplete="name" required>
+        </div>
+
+        <div class="modal__field">
+          <label class="modal__label" for="contactFraternidad">Fraternidad y carrera</label>
+          <input type="text" id="contactFraternidad" class="modal__input" placeholder="Ej. Fraternidad X — Carrera Y" required>
+        </div>
+
+        <div class="modal__field">
+          <label class="modal__label" for="contactPlanSelect">Plan o servicio de interés</label>
+          <div class="modal__select-wrap">
+            <select id="contactPlanSelect" class="modal__input modal__select">
+              <option value="">Aún no lo tengo definido</option>
+              <optgroup label="Promoción de fraternidad">
+                <option value="Plan Inicio">Plan Inicio — Bs 300</option>
+                <option value="Plan Destacado">Plan Destacado — Bs 500</option>
+                <option value="Plan Premium">Plan Premium — Bs 650</option>
+              </optgroup>
+              <optgroup label="Cobertura Entrada Universitaria">
+                <option value="Plan Esencial">Plan Esencial — Bs 500</option>
+                <option value="Plan Streaming">Plan Streaming — Bs 700</option>
+                <option value="Plan Producción Total">Plan Producción Total — Bs 900</option>
+              </optgroup>
+              <option value="OTRO">Otro / consulta general / más de un plan</option>
+            </select>
+            <svg class="modal__select-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+
+        <div class="modal__field">
+          <label class="modal__label" for="contactReason">Mensaje o requerimientos</label>
+          <textarea id="contactReason" class="modal__textarea" rows="3" placeholder="Cuéntanos brevemente qué necesitas..."></textarea>
+        </div>
+
+        <button type="submit" class="modal__submit">
+          <span>Solicitar Cotización</span>
+          <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </form>
+
+      <p class="modal__msg" id="contactModalMsg" aria-live="polite"></p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
