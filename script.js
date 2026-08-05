@@ -39,7 +39,7 @@
       price: 'Bs 500',
       badge: 'Más solicitado',
       features: [
-        'Producción de video promocional.',
+        'Producción de un video promocional.',
         'Edición personalizada.',
         'Coordinación previa con la fraternidad para la planificación de la grabación.',
         'Publicación y difusión en plataformas de TVU UMSA.'
@@ -57,10 +57,10 @@
     },
     'Plan Esencial': {
       price: 'Bs 500',
-      badge: 'Cobertura esencial',
+      badge: 'Edición esencial',
       features: [
-        'Cobertura en video de un sector del recorrido.',
-        'Edición de video resumen.',
+        'Edición de video. Duración 20 segundos.',
+        'Pleca personalizada con el nombre de la fraternidad.',
         'Entrega en formato digital.'
       ]
     },
@@ -68,9 +68,8 @@
       price: 'Bs 700',
       badge: 'Más contratado',
       features: [
-        'Cobertura ampliada del recorrido.',
-        'Video editado con producción personalizada.',
-        'Transmisión en vivo según planificación.',
+        'Edición de video. Duración 30 segundos.',
+        'Pleca personalizada con el nombre de la fraternidad.',
         'Coordinación previa con la fraternidad.'
       ]
     },
@@ -78,9 +77,11 @@
       price: 'Bs 900',
       badge: 'Experiencia completa',
       features: [
-        'Cobertura completa del recorrido.',
+        'Cobertura durante el recorrido.',
+        'Pleca personalizada con el nombre de la fraternidad.',
         'Transmisión en vivo.',
         'Producción audiovisual personalizada.',
+        'Edición de video. Duración 60 segundos.',
         'Planificación previa junto al equipo de TVU.',
         'Atención prioritaria durante la cobertura.',
         'Entrega prioritaria del material editado.'
